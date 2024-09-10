@@ -3,7 +3,7 @@ import serviceImg from "../../../assets/home/chef-service.jpg";
 const About = () => {
     return (
         <div
-            className={`bg-cover bg-center w-full p-28 mb-24`}
+            className={`bg-fixed bg-cover bg-center w-full p-28 mb-24`}
             style={{ backgroundImage: `url(${serviceImg})` }}
         >
             <div className="px-36 py-20 bg-white/90 text-black">
