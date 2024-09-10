@@ -2,7 +2,12 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                raleWay: ["Raleway", "sans-serif"],
+                cinZel: ["Cinzel", "serif"],
+            },
+        },
     },
     plugins: [require("daisyui")],
 };
