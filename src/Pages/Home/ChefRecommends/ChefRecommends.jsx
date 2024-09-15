@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ChefRecommendMenuCard from "../../Shared/Components/ChefRecommendMenuCard/ChefRecommendMenuCard";
+import FoodMenuCard from "../../Shared/Components/FoodMenuCard/FoodMenuCard";
 import SectionHeading from "../../Shared/Components/SectionHeading/SectionHeading";
 
 const ChefRecommends = () => {
@@ -24,7 +24,7 @@ const ChefRecommends = () => {
             />
             <div className=" grid grid-cols-3 gap-x-6">
                 {chefRecommends.map((menu) => (
-                    <ChefRecommendMenuCard key={menu._id} menu={menu} />
+                    <FoodMenuCard key={menu._id} menu={menu} />
                 ))}
             </div>
         </section>

@@ -10,7 +10,15 @@ import img6 from "../../../assets/home/06.png";
 const Banner = () => {
     return (
         <div>
-            <Carousel showThumbs={true} swipeable={true} emulateTouch={true}>
+            <Carousel
+                showThumbs={false}
+                swipeable={true}
+                emulateTouch={true}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={4000}
+                transitionTime={1500}
+            >
                 <div>
                     <img src={img1} />
                 </div>
